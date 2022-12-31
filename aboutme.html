@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link  href="style.css" rel="stylesheet" type="text/css">
+        <title>About Me</title>
+        <script src="https://kit.fontawesome.com/c605623355.js" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+        <script>
+            $(document).ready(function(){
+                $('#icon').click(function() {
+                    $('ul').toggleClass('show');
+                });
+            });
+        </script>
+    </head>
+    <body>
+       <div class="section">
+        <nav class="topnav">
+            <label class="logo">Profile</label>
+            <ul>
+                <li> <a  href="./index.html">Home</a></li>
+                <li><a class="active" href="./aboutme.html">About Me</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+                <li><a href="./myGallery.html">My Gallery</a></li>
+            </ul>
+            <lable id="icon"><i class="fa-solid fa-bars"></i></lable>
+        </nav>
+        <div class="hero">
+            <article class="hello">
+                <h1>About Me</h1>
+                <img src="./images/aboutme2.jpeg" alt="photograph of me" class="aboutimg">
+                <content>
+                    My name is Naveena, and I'm a well-versed photographer. My skills in photo editing, lighting and other photography concepts help me craft visually appealing pieces of art. I value using optimal lighting circumstances and landscapes to capture unique moments that fulfill my customer's specifications.
+                </content>
+                <h4>Naveena Redabothu</h4>
+                <p>~photographer</p>
+            </article>
+        </div>
+       </div>
+    </body>
+</html>

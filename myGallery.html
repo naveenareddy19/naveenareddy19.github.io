@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Collection</title>
+    <link href="./style.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c605623355.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('#icon').click(function() {
+                $('ul').toggleClass('show');
+            });
+        });
+    </script>
+</head>
+<body class="photos">
+    <nav class="topnav">
+        <label class="logo">Profile</label>
+        <ul>
+            <li> <a  href="./index.html">Home</a></li>
+            <li><a  href="./aboutme.html">About Me</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+            <li><a class="active" href="./myGallery.html">My Gallery</a></li>
+        </ul>
+        <lable id="icon"><i class="fa-solid fa-bars"></i></lable>
+    </nav>
+    <div class="gallery-container">
+        <img src="./images/elephant.jpeg">
+        <img src="./images/island.jpg">
+        <img src="./images/dg.jpeg">
+        <img src="./images/dog.jpeg">
+        <img src="./images/book.jpg">
+        <img src="./images/view.jpeg">
+        <img src="./images/flower.jpeg">
+        <img src="./images/sunrise.jpeg">
+        <img src="./images/island.jpg">
+    </div>
+</body>
+</html>
